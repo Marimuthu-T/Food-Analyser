@@ -1,0 +1,35 @@
+:root {
+    --dashboard-margin: 40px;
+    --font-size-xs: 16px;
+    --font-size-medium: 28px;
+    --font-size-large: 48px;
+  }
+
+.main
+{
+	max-width: 500px;
+  margin: auto;
+}
+.welcome_message {
+    display: block;
+    font-size: var(--font-size-medium);
+    margin-left: var(--dashboard-margin);    
+}
+.dashboard-header {
+    overflow: auto;
+    margin-left: var(--dashboard-margin);    
+    margin-top: -50px;
+    font-size: var(--font-size-large);
+    display: flex;
+    align-items: center;
+}
+.header-element {  
+width: 60px;  
+height:60px;  
+text-align: center;  
+padding: 15px;  
+border: 3px solid red;  
+}  
+img {
+border-radius:50%;
+}
